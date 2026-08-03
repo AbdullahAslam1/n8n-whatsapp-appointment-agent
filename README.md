@@ -183,40 +183,6 @@ Every morning the workflow:
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── Doctor Clinic WhatsApp Booking System.json
-├── README.md
-└── docs/
-    ├── workflow.png
-    ├── architecture.png
-    ├── whatsapp-demo.gif
-    └── chatbot-demo.png
-```
-
----
-
-## Setup
-
-1. Import the workflow into **n8n**.
-2. Configure the required credentials:
-   - WhatsApp Business API
-   - OpenRouter
-   - Google Sheets
-   - Google Calendar
-3. Create a Google Spreadsheet containing the following sheets:
-   - Patients
-   - Sessions
-   - Appointments
-4. Update the spreadsheet IDs, calendar ID, and WhatsApp configuration inside the workflow.
-5. Activate the workflow.
-
-> **Note:** The exported workflow contains only credential references. Replace them with your own credentials before deploying.
-
----
-
 ## Future Improvements
 
 - Multi-doctor support
